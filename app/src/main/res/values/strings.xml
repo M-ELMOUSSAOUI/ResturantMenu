@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">انت الشيف</string>
+
+    <string name="description">this is Image Btton</string>
+    <string name="txt1">مقبلات</string>
+    <string name="txt2">السلطات</string>
+    <string name="txt3">مشروبات</string>
+    <string name="txt4">الاستيك</string>
+    <string name="txt5">المكرونة</string>
+    <string name="txt6">المشاوي</string>
+    <string name="commig_soon">COMMIG SOON</string>
+    <string name="txt7">السندويشات</string>
+    <string name="txt8">طواجن</string>
+    <string name="tecx">فتوش                                                   15 ريال                                               157
+حمص                                                11 ريال                                             164
+حمص باللحم                                        16 ريال                                           123
+متبل                                                11 ريال                                             270
+بابا غنوج                                             11 ريال                                         148
+سلطانية                                             11 ريال                                           121
+حيدرية                                             11 ريال                                          126
+سلطة حارة                                        11 ريال                                             119
+ورق عنب (4 قطع)                              11 ريال                                           205
+صحن مقبلات مشكل (6 اشكال)                 35 ريال                                           ----
+زنجر دجاج (3 قطع)                            7 ريال                                         283
+جمبري بالصوص                                 18 ريال                                          354
+بوراك بالجبن  (3 قطع)                         6 ريال                                            112
+بطاطس                                           6 ريال                                           365
+رز ابيض                                        5 ريال                                              186
+كبة مقلية (3 قطع)                             10 ريال                                               172
+بطاطس حارة                                  8 ريال                                                189
+</string>
+    <string name="txt9">الفطائر والمعجنات</string>
+    <string name="txt11">الحلويات</string>
+    <string name="txt010">شورما</string>
+</resources>

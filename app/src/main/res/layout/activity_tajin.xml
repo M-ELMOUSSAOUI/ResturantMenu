@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tajin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt8"
+            android:textSize="70sp"
+            android:layout_marginEnd="50dp"
+            android:layout_gravity="right" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:contentDescription="@string/description"
+                android:background="@drawable/tajin1"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/description"
+                android:background="@drawable/tajin2"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp">
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:contentDescription="@string/description"
+                android:background="@drawable/tajin3"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/description"
+                android:background="@drawable/tajin4"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

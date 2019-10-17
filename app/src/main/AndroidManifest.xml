@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zizi.mouad.resturantmenu">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ImagesView.Salad2View"></activity>
+        <activity android:name=".ImagesView.TaginView" />
+        <activity android:name=".ImagesView.SweetView" />
+        <activity android:name=".ImagesView.ShawarmaView" />
+        <activity android:name=".ImagesView.Sandwish" />
+        <activity android:name=".ImagesView.SaladView" />
+        <activity android:name=".ImagesView.PastaView" />
+        <activity android:name=".ImagesView.MakaronitView" />
+        <activity android:name=".ImagesView.MashawiView" />
+        <activity android:name=".ImagesView.LasticView" />
+        <activity android:name=".ImagesView.ImageViewer" />
+        <activity
+            android:name=".makaronit"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".machawi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pasta"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".lastic"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".sweet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".salade"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".sandwich"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Tajin"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".drinks"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Shawarma"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
